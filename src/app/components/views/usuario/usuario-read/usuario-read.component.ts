@@ -38,7 +38,7 @@ import { UsuarioService } from '../usuario.service';
         <ng-container matColumnDef="linguagens">
           <th mat-header-cell *matHeaderCellDef> LINGUAGENS </th>
           <td mat-cell *matCellDef="let row"> 
-            <a class="livros" routerLink="{{ row.id }}/livros">
+            <a class="livros" routerLink="{{ row.id }}/linguagens">
               <i class="material-icons">code</i> 
             </a> 
           </td>

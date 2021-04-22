@@ -26,6 +26,11 @@ import { UsuarioReadComponent } from './components/views/usuario/usuario-read/us
 import { UsuarioCreateComponent } from './components/views/usuario/usuario-create/usuario-create.component';
 import { UsuarioUpdateComponent } from './components/views/usuario/usuario-update/usuario-update.component';
 import { UsuarioDeleteComponent } from './components/views/usuario/usuario-delete/usuario-delete.component';
+import { LiguagemReadComponent } from './components/views/linguagem/liguagem-read/liguagem-read.component';
+import { LiguagemCreateComponent } from './components/views/linguagem/liguagem-create/liguagem-create.component';
+import { LiguagemUpdateComponent } from './components/views/linguagem/liguagem-update/liguagem-update.component';
+import { LiguagemDeleteComponent } from './components/views/linguagem/liguagem-delete/liguagem-delete.component';
+import { LiguagemReadAllComponent } from './components/views/linguagem/liguagem-read-all/liguagem-read-all.component';
 
 
 
@@ -41,7 +46,12 @@ import { UsuarioDeleteComponent } from './components/views/usuario/usuario-delet
     UsuarioReadComponent,
     UsuarioCreateComponent,
     UsuarioUpdateComponent,
-    UsuarioDeleteComponent
+    UsuarioDeleteComponent,
+    LiguagemReadComponent,
+    LiguagemCreateComponent,
+    LiguagemUpdateComponent,
+    LiguagemDeleteComponent,
+    LiguagemReadAllComponent
   ],
   imports: [
     BrowserModule,
